@@ -31,3 +31,16 @@ body {
     width: 90%;
     height: 100%;
 }
+
+.instagram-phone img {
+    height: 40rem;
+}
+
+.instagram-continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
