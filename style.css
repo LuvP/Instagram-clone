@@ -4,12 +4,13 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
 }
 
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: #ffffff;
+    background-color: #fdfdfd;
     margin: 0;
     padding: 0;
     display: flex;
@@ -78,7 +79,7 @@ body {
 
 .instagram-login {
     background-color: #0095f6;
-    color: #ffffff;
+    color: #cbc8da;
     padding: 8px;
     border-radius: 4px;
 }
@@ -120,11 +121,11 @@ body {
 }
 
 .app-download:nth-child(1) {
-    background-image: url('./img/apple\ button.png');
+    background-image: url('./img/apple-button.jpg');
 }
 
 .app-download:nth-child(2) {
-    background-image: url('./img/GPlay\ button.png');
+    background-image: url('./img/googleplay-button.jpg');
 }
 
 /*Queries*/
@@ -155,4 +156,19 @@ body {
     .group {
         border: 1px solid transparent;
     }
+}
+
+/*Dark mode*/
+
+body.dark-mode {
+    background-color: #212529;
+    color: #899095;
+}
+
+.dark-mode-a {
+    color: #dee2e6;
+}
+
+.dark-mode- a:hover {
+    color: #3cc368;
 }
